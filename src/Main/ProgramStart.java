@@ -4,7 +4,11 @@ public class ProgramStart {
 
     public static void main(String[] args)
     {
-        System.out.println("Program is working");
+        String[] a = {"banana", "watermelon", "pear", "plum", "apple"};
+        Sorting.show(a);
+        Sorting.sort(a);
+        assert Sorting.isSorted(a);
+        Sorting.show(a);
     }
 
 }
